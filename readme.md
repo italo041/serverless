@@ -1,6 +1,6 @@
 ## Prerequisites
 
-- Node.js (version 18.x or later)
+- Node.js (version 20.x or later)
 - npm (Node Package Manager)
 - Serverless Framework installed globally (`npm install -g serverless`)
 - AWS account with IAM permissions to deploy Lambda functions
