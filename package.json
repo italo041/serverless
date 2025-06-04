@@ -1,0 +1,19 @@
+{
+  "name": "my-serverless-project",
+  "version": "1.0.0",
+  "description": "A Serverless project for deploying to AWS Lambda",
+  "main": "src/handler.js",
+  "scripts": {
+    "deploy": "serverless deploy",
+    "remove": "serverless remove",
+    "invoke": "serverless invoke -f hello"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1692.0"
+  },
+  "devDependencies": {
+    "serverless": "^4.16.1"
+  },
+  "author": "Italo Bejarano",
+  "license": "MIT"
+}

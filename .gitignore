@@ -1,0 +1,11 @@
+node_modules/
+.serverless/
+.env
+.DS_Store
+*.log
+.aws/
+.idea/
+.vscode/
+package-lock.json
+npm-debug.log
+coverage/
